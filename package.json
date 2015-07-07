@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Implements tcp sockets support in Sails",
   "dependencies": {
+    "net": "^1.0.2",
     "crypto": "0.0.3"
   },
   "main": "index.js",
@@ -13,8 +14,15 @@
   "sails": {
     "isHook": true
   },
-  "author": {
-    "name": "Glebcha"
+  "author": "Glebcha",
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "MIT"
+  "keywords": [
+    "sails",
+    "tcp",
+    "hook"
+  ]
 }
